@@ -1,0 +1,81 @@
+<!DOCTYPE Html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Tables</title>
+<head>
+
+<body>
+	<table>
+		<style>
+			table {
+				font-family: sans-serif;
+				width:75%;
+				border-collapse: collapse;
+			}
+
+			th {
+				background-color: orange;
+				color:blue;
+			}
+
+			td, th {
+				padding: 15px
+				text-align:left;
+				border: 3px solid orange;
+
+			}
+
+			tr-nth-child (odd) {
+				background color: orange;
+				color:blue;
+			}
+			.center-table-text{
+				text-align: center;
+			}
+		</style>
+
+		<tr>
+			<th>Name</th>
+			<th>Batting Average</th>
+			<th>HRs</th>
+			<th>RBIs</th>
+			<th colspan="2" class="center-table-text"></th>
+		</tr>
+		<tr>
+			<td>Synderguaard, Noah </td>
+			<td>.091</td>
+			<td>0</td>
+			<td>2</td>
+			<td rowspan="6">Updated Daily</td>
+		</tr>
+
+			<tr>
+			<td>Cespedes,Yoenis</td>
+			<td>.255</td>
+			<td>8</td>
+			<td>28</td>
+
+		</tr>
+
+			<tr>
+			<td>Harvey, Matt</td>
+			<td>.286</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+
+			<tr>
+			<td>deGrom,Jocob</td>
+			<td>.065</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+		<td colspan="6">Totals........</td>
+	</tr>
+
+	</table>
+</body>
+
+</html>
